@@ -1,0 +1,31 @@
+.square {
+    width: 40vw; /* 20% de la largeur de la fenêtre */
+    height: 40vw; /* 20% de la largeur de la fenêtre pour garder un carré */
+    max-width: 200px; /* Limite maximale pour les grands écrans */
+    max-height: 200px; /* Limite maximale pour les grands écrans */
+    border: 2px solid black;
+    border-radius: 5%;
+    position: relative; 
+}
+
+.circle{
+    width: 20%; /* 20% de la largeur de la fenêtre */
+    height: 20%; /* 20% de la largeur de la fenêtre pour garder un carré */
+    border-radius: 50%;
+    background-color: black;    
+}
+
+.dot {
+    width: 20%;
+    height: 20%;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    display: none;
+}
+.dot1 { top: 10%; left: 10%; }
+.dot2 { top: 10%; right: 10%; }
+.dot3 { top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.dot4 { bottom: 10%; left: 10%; }
+.dot5 { bottom: 10%; right: 10%; }
+.dot6 { top: 50%; right: 50%; transform: translate(50%, -50%); }
